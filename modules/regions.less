@@ -12,8 +12,9 @@
 }
 
 .footer-column-wrapper {
-    border: 1px solid pink;
+    border: 1px solid green;
     overflow: auto;
+    padding-left: 2em;
 }
 
 .sidebar {
@@ -80,6 +81,18 @@
         &::after {
             content: " » ";
         }
+    }
+}
+
+.breadcrumb-list {
+    ul {
+      list-style: none;
+    }
+
+    a {
+      text-decoration: none;
+      font-style: italic;
+      font-weight: bold;
     }
 }
 

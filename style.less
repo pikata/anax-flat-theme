@@ -12,7 +12,6 @@
 }
 
 .site-logo-text,
-.navbar2,
 .profile {
   float: left;
   width: 30%;
@@ -20,7 +19,7 @@
 
 .site-logo-text {
   font-size: 2em;
-
+  font-style: italic;
   a {
     text-decoration: none;
     color: #222;
@@ -30,9 +29,26 @@
 // navbar main
 .rm-desktop li {
   //background-color: #eee;
+  font-size: 18px;
+  font-style: italic;
 }
 
-@navbarItemBgColor: #eee;
+.next {
+    float: right;
+    text-align: right;
+  a {
+    font-style: italic;
+  }
+}
+
+.previous {
+  margin-bottom: 5px;
+  a {
+    font-style: italic;
+  }
+}
+
+@navbarItemBgColor: #98fb98;
 
 //navbar max
 .rm-max .rm-small .rm-button {
@@ -62,7 +78,7 @@
  img {
    max-width: 100%;
  }
- 
+
  @media screen and (max-width: 900px) {
       .site-logo-text {
           width: 40%;
